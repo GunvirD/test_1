@@ -1,3 +1,8 @@
+
+
+
+
+
 #body1{
 	font-family: Arial, sans_serif;
 	font-weight: bold;
@@ -20,6 +25,8 @@
 
 
 table{
+	background-color: #252525;
+	color: white;
 	font-size: 20px;
 	width: 50%;
 	margin-right: auto;
@@ -32,11 +39,17 @@ th,td{
 	border: 2px solid black;
 }
 
+#backgroundColor{
+	background: #424240;
+}
 
-
-
-
-
+#title{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #252525;
+	color: white;
+}
 
 
 
