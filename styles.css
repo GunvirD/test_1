@@ -1,0 +1,43 @@
+#body1{
+	font-family: Arial, sans_serif;
+	font-weight: bold;
+	text-align:center;
+	margin: 30px;
+	padding: 20px;
+	color: white;
+	background: #484646;
+}
+
+#body2{
+	font-family: Arial, sans_serif;
+	font-weight: bold;
+	text-align:center;
+	margin: 30px;
+	padding: 20px;
+	color: white;
+	background: #252525;
+}
+
+
+table{
+	font-size: 20px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th,td{
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
