@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <title> Test </title>
+        <link rel="stylesheet" href="/Users/gunvirdhesi/lecture1/lecture2/templates/styles.css">
+    </head>
+
+    <body>
+      <h2>
+      Year,Month,Day:
+      <br>
+      {{year}}:{{month}}:{{day}}
+      <br>
+      Hour,Minute,Second:
+      <br>
+      {{hour}}:{{minute}}:{{second}}
+      </h2>
+
+      <h1 style="font-family: Arial; text-align: center;">
+        {% if is_it_new_year %}
+          YES
+        {% else %}
+          NO
+        {% endif %}
+      </h1>
+    </body>
+
+    </html>

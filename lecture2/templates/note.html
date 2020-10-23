@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form Page</title>
+    </head>
+
+    <body>
+        This is a form:
+        <br>
+
+
+
+        <form action="{{url_for('NOTE')}}"method="POST">
+            <input type="text" note="note" placeholder="Add Note Here">
+            <button>Make Note</button>
+        </form>
+
+        <ul>
+            {%for note in notes%}
+                <li>{{note}}</li>
+            {%endfor%}
+        </ul>
+    </body>
+</html>

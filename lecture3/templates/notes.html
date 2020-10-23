@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notes Page</title>
+        <link rel="stylesheet" href="{{url_for('templates',filename='styles.css')}}">
+    </head>
+
+    <body>
+        <h3>Your Notes:</h3>
+        <ul>
+            {% for note in notes%}
+                <li>{{note}} <button style="margin-left: 100px;">delete</button></li>
+            {%endfor%}
+        </ul>
+
+        <form action="{{url_for('NOTES')}}"  method="POST">
+            <input type="text" placeholder="add you notes here" name="note">
+            <button>Make Note</button>
+        </form>
+    </body>
+</html>

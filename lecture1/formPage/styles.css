@@ -1,0 +1,28 @@
+body{
+	margin:50px;
+	font-family: Arial;
+}
+
+input[type=number]{
+	text-align: center;
+	width:75px;
+	font-weight: bold;
+}
+
+
+
+input:hover{
+	background-color:#aeb0af;
+}
+
+
+#chooser::before{
+	content: "\21d2 click here: ";
+	font-weight: bold;
+}
+
+p::selection{
+	opacity: 2;
+	color:white;
+	background:black;
+}
